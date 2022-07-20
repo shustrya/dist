@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1.8520813mm"
+   height="2.1166687mm"
+   viewBox="0 0 1.8520813 2.1166687"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="arrow-r.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:dataloss="true"
+   inkscape:export-filename="arrow-r.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74386223"
+     inkscape:cx="321.29605"
+     inkscape:cy="562.60418"
+     inkscape:window-width="1916"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-118.58535,-167.89375)">
+    <mask
+       id="mask0_2338_296"
+       maskUnits="userSpaceOnUse"
+       x="7"
+       y="6"
+       width="7"
+       height="8">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 7,6 v 8 l 7,-4 z"
+         fill="#ffffff"
+         id="path223" />
+    </mask>
+    <mask
+       id="mask0_2338_288"
+       maskUnits="userSpaceOnUse"
+       x="6"
+       y="6"
+       width="7"
+       height="8">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 13,6 v 8 L 6,10 Z"
+         fill="#ffffff"
+         id="path347" />
+    </mask>
+    <mask
+       id="mask0_2338_296-1"
+       maskUnits="userSpaceOnUse"
+       x="7"
+       y="6"
+       width="7"
+       height="8">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 7,6 v 8 l 7,-4 z"
+         fill="#ffffff"
+         id="path557" />
+    </mask>
+    <path
+       fill-rule="evenodd"
+       clip-rule="evenodd"
+       d="m 120.43742,167.89376 v 2.11667 l -1.85208,-1.05833 z"
+       fill="#ffffff"
+       fill-opacity="0.01"
+       id="path650"
+       style="stroke-width:0.264583" />
+    <mask
+       id="mask0_2338_288-0"
+       maskUnits="userSpaceOnUse"
+       x="6"
+       y="6"
+       width="7"
+       height="8">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 13,6 v 8 L 6,10 Z"
+         fill="#ffffff"
+         id="path652" />
+    </mask>
+    <g
+       mask="url(#mask0_2338_288-0)"
+       id="g657"
+       transform="matrix(0.26458333,0,0,0.26458333,116.99784,166.30626)">
+      <rect
+         x="-1"
+         y="-1"
+         width="22"
+         height="22"
+         fill="#9ea0a5"
+         id="rect655" />
+    </g>
+  </g>
+</svg>

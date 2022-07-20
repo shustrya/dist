@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--HEADER BLOCK-->
+    <header>
+      <div class="topheader-container">
+        <div class="flex">
+          <img class="logo-image" src="./static/logo.svg" alt="" />
+          <span class="logo-text">Maple.com</span>
+        </div>
+        <div class="menu-items">
+          <ul class="menu-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">.COM&nbsp;Registration</a></li>
+            <li><a href="">Transfers</a></li>
+            <li><a href="">TLDs</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+          <button class="button-signin">Sign in / Register</button>
+        </div>
+      </div>
+    </header>
+    <!--END of HEADER BLOCK-->
+
+    <div class="search-bg">
+      <!--SEARCH BLOCK-->
+      <div class="result-head-container">
+        <div>
+          <input
+            class="result-head-search-input"
+            type="text"
+            value="Maple Design"
+          />
+          <button class="result-head-search-button"><span>Search</span></button>
+        </div>
+      </div>
+      <!--END of SEARCH BLOCK-->
+
+      <!--RESULTS BLOCK-->
+      <div class="search-result-cols">
+        <div class="search-result-col1">
+          <div class="border-b">
+            <label for="i_cat">domain&nbsp;categories</label>
+            <select id="i_cat" type="text">
+              <option value="All Categories">All Categories</option>
+            </select>
+            <label for="i_add">added&nbsp;on</label>
+            <select id="i_add" type="text">
+              <option value="In the last 7 days">In the last 7 days</option>
+            </select>
+
+            <label for="i_price">price</label>
+            <div class="flex mb-6 mt-1">
+              <input
+                type="number"
+                class="price appearance-none w-[75px]"
+                value="0"
+              />
+              <span>to</span>
+              <input type="number" class="price w-[118px]" value="10000" />
+            </div>
+            <div class="w-full relative mt-4">
+              <img src="./static/slider.png" alt="" />
+            </div>
+          </div>
+
+          <div class="border-b mt-8">
+            <label for="i_price">Number of Characters</label>
+            <div class="flex mb-6 mt-1">
+              <input
+                type="number"
+                class="appearance-none num w-[75px]"
+                value="0"
+              />
+              <span class="my-auto px-2">to</span>
+              <input type="number" class="num w-[75px]" value="253" />
+            </div>
+
+            <div class="w-full relative mt-4">
+              <img src="./static/slider.png" alt="" />
+            </div>
+
+            <label for="i_price">Number of Words</label>
+            <div class="flex mb-6 mt-1">
+              <input
+                type="number"
+                class="appearance-none num w-[75px]"
+                value="0"
+              />
+              <span class="my-auto px-2">to</span>
+              <input type="number" class="num w-[75px]" value="16" />
+            </div>
+
+            <div class="w-full relative mt-4">
+              <img src="./static/slider.png" alt="" />
+            </div>
+
+            <label for="i_char">Special Characters</label>
+            <select id="i_char" type="text">
+              <option value="All Categories">All Categories</option>
+            </select>
+
+            <div class="w-full relative mt-4"></div>
+          </div>
+
+          <div class="border-b">
+            <label for="i_cat">Top Level TLDs</label>
+            <select id="i_cat" type="text">
+              <option value="All Categories">All TLDs</option>
+            </select>
+            <label for="i_cat">gTLDs</label>
+            <select id="i_cat" type="text">
+              <option value="All Categories">All gTLDs</option>
+            </select>
+            <label for="i_cat">CCTLD</label>
+            <select id="i_cat" type="text">
+              <option value="All Categories">All ccTLDs</option>
+            </select>
+          </div>
+
+          <button class="results-result-button-reset">Reset Filter</button>
+        </div>
+
+        <div class="results-container">
+          <div class="results-container-header">
+            <h4>SEARCH&nbsp;RESULTS</h4>
+            <div class="border-b-2 w-full"></div>
+          </div>
+
+          <div class="result-header">
+            <span class="result-display"
+              >Displaying <strong>1 to 50</strong> of
+              <strong>2,186</strong> Domains</span
+            >
+            <div class="result-share">
+              <img src="./static/share.svg" alt="" />
+              <span>Share Results</span>
+            </div>
+          </div>
+
+          <span class="dname">Domain Name</span>
+
+          <div class="result-list">
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.co</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.game</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.io</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.xyz</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.info</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.org</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.uno</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.cloud</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.life</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+
+            <!--Item-->
+            <div class="results-result-item">
+              <h5>mapledesign.world</h5>
+              <div class="results-result-item-cart">
+                <span>$2.99</span>
+                <button>Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="bred-container">
+            <div>
+              <select id="i_cat" type="text">
+                <option value="">Display: 20 Domains per page</option>
+              </select>
+            </div>
+
+            <div class="bred-container-pages">
+              <div class="al">
+                <span>
+                  <img src="./static/arrow-l.svg" />
+                </span>
+              </div>
+              <div><span>3</span></div>
+              <div><span>4</span></div>
+              <div class="select"><span>5</span></div>
+              <div><span>6</span></div>
+              <div><span>7</span></div>
+              <div class="ar">
+                <span>
+                  <img src="./static/arrow-r.svg" />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END of RESULTS BLOCK-->
+    </div>
+
+    <!--PAY BLOCK-->
+    <div class="pay-container">
+      <div class="pay-container-text">
+        <h5>Easily Pay and Buy with major payment methods</h5>
+      </div>
+
+      <div class="pay-container-items">
+        <div>
+          <img src="./static/pay1.svg" alt="" />
+          <span>Crypto</span>
+        </div>
+        <div>
+          <img src="./static/pay2.svg" alt="" />
+          <span>Credit Cards</span>
+        </div>
+        <div>
+          <img src="./static/pay3.svg" alt="" />
+          <span>PayPal</span>
+        </div>
+        <div>
+          <img src="./static/pay4.svg" alt="" />
+          <span>Wire Transfer </span>
+        </div>
+        <div>
+          <img src="./static/pay5.svg" alt="" />
+          <span>TransferWise</span>
+        </div>
+        <div>
+          <img src="./static/pay6.svg" alt="" />
+          <span>Western Union</span>
+        </div>
+        <div>
+          <img src="./static/pay7.svg" alt="" />
+          <span>AliPay</span>
+        </div>
+      </div>
+    </div>
+    <!--END of PAY BLOCK-->
+
+    <!--FOOTER BLOCK-->
+    <footer>
+      <!-- Support section-->
+      <div class="full-container search-footer-container">
+        <div class="footer-support">
+          <ul class="footer-support-list">
+            <li class="footer-support-text">Legendary Customer Support</li>
+            <li class="footer-support-tel">
+              <h4>(888) 800-8080</h4>
+              <h4>(456) 123-4567</h4>
+            </li>
+          </ul>
+          <div class="footer-icon">
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM23.1889 21.9224V33.3475H18.4617V21.9229H16.1V17.9857H18.4617V15.6219C18.4617 12.4099 19.7952 10.5 23.584 10.5H26.7383V14.4376H24.7667C23.2918 14.4376 23.1942 14.9878 23.1942 16.0147L23.1889 17.9853H26.7606L26.3427 21.9224H23.1889Z"
+                fill="white"
+              />
+            </svg>
+
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM20.4151 17.7957L20.3711 17.0691C20.2389 15.1857 21.3993 13.4655 23.2354 12.7982C23.9111 12.5609 25.0569 12.5312 25.806 12.7388C26.0998 12.8278 26.658 13.1244 27.0546 13.3913L27.7743 13.8807L28.5676 13.6286C29.0082 13.4951 29.5958 13.2727 29.8602 13.1244C30.1099 12.9909 30.3302 12.9168 30.3302 12.9613C30.3302 13.2134 29.7867 14.0735 29.3314 14.548C28.7144 15.2154 28.8907 15.2747 30.1393 14.8298C30.8884 14.5777 30.9031 14.5777 30.7562 14.8595C30.6681 15.0078 30.2127 15.5268 29.728 16.0013C28.9054 16.817 28.8613 16.9059 28.8613 17.5881C28.8613 18.641 28.3619 20.8358 27.8625 22.037C26.9371 24.291 24.954 26.6193 22.971 27.7908C20.1801 29.4369 16.4638 29.8521 13.335 28.8882C12.2921 28.562 10.5 27.7315 10.5 27.5832C10.5 27.5387 11.0435 27.4794 11.7045 27.4646C13.0853 27.4349 14.466 27.0493 15.6412 26.3672L16.4344 25.8926L15.5237 25.5812C14.231 25.1363 13.0706 24.1131 12.7768 23.1492C12.6887 22.8378 12.718 22.8229 13.5406 22.8229L14.3926 22.8081L13.6728 22.467C12.8209 22.037 12.0424 21.3103 11.6604 20.5688C11.3813 20.035 11.0288 18.6855 11.1316 18.5817C11.161 18.5372 11.4695 18.6262 11.822 18.7448C12.8356 19.1155 12.9678 19.0266 12.3802 18.4037C11.2785 17.2767 10.9407 15.6009 11.4695 14.0142L11.7192 13.3024L12.6887 14.2663C14.6717 16.209 17.0073 17.3657 19.6807 17.7067L20.4151 17.7957Z"
+                fill="white"
+              />
+            </svg>
+
+            <svg
+              width="42"
+              height="42"
+              viewBox="0 0 42 42"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM10.0814 17.3931H14.8405V31.6921H10.0814V17.3931ZM15.1539 12.9699C15.123 11.5679 14.1204 10.5 12.4924 10.5C10.8644 10.5 9.8 11.5679 9.8 12.9699C9.8 14.3428 10.8329 15.4414 12.4306 15.4414H12.461C14.1204 15.4414 15.1539 14.3428 15.1539 12.9699ZM26.524 17.0574C29.6557 17.0574 32.0035 19.1015 32.0035 23.4935L32.0033 31.6921H27.2444V24.0422C27.2444 22.1207 26.5557 20.8095 24.8329 20.8095C23.5181 20.8095 22.735 21.6934 22.3911 22.5472C22.2652 22.8531 22.2343 23.2794 22.2343 23.7068V31.6925H17.4747C17.4747 31.6925 17.5374 18.7353 17.4747 17.3935H22.2343V19.4189C22.866 18.4452 23.9972 17.0574 26.524 17.0574Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- Text section-->
+      <div class="full-container footer-container-dark">
+        <div class="footer-sometext footer-sometext-row">
+          <div class="footer-sometext-section">
+            <h5 class="footer-sometext-h5">My domains</h5>
+            <ul class="footer-sometext-links">
+              <li class="">
+                <a href="">Manage My Domains</a>
+              </li>
+              <li>
+                <a href="">Domain Registration</a>
+              </li>
+              <li>
+                <a href="">WHOIS</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-sometext-section pt-x15">
+            <h5 class="footer-sometext-h5">Transfers</h5>
+            <ul class="footer-sometext-links">
+              <li class="">
+                <a href="">Transfer Into Portfolio</a>
+              </li>
+              <li>
+                <a href="">Transfer To Another Registrar</a>
+              </li>
+              <li>
+                <a href="">Get Transfer Status</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-sometext footer-sometex-policy">
+          <div class="footer-sometext-section">
+            <ul class="footer-sometext-legal">
+              <li><a href="">Universal&nbsp;TOS</a></li>
+              <li><a href="">Refund&nbsp;Policy</a></li>
+              <li><a href="">Registrant&nbsp;Rights</a></li>
+              <li><a href="">Registration&nbsp;Agreement</a></li>
+              <li><a href="">Privacy&nbsp;Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="full-container">
+        <div class="footer-lastblock footer-lastblock-img">
+          <div class="footer-lastblock-img-list">
+            <img class="w-[214px]" src="./static/footer-1.png" alt="" />
+            <img class="w-[137px]" src="./static/footer-2.png" alt="" />
+            <img class="w-[54px]" src="./static/footer-3.png" alt="" />
+          </div>
+        </div>
+
+        <div class="footer-lastblock footer-lastblock-copyright">
+          <p>Copyright © 2022 by Maple Inc. All rights reserved.</p>
+          <p class="pt-2">WHOIS Privacy services provided by Anonymize.com</p>
+        </div>
+      </div>
+    </footer>
+    <!--END of HEADER BLOCK-->
+
+    <script>
+      document.addEventListener(
+        "input",
+        (e) => {
+          let _t = e.target;
+          _t.parentNode.style.setProperty(`--${_t.id}`, +_t.value);
+        },
+        false
+      );
+
+      document.addEventListener("click", (e) => {
+        // определяем, что клик произошёл на ссылке
+        if (e.target.nodeName === "A" || e.target.nodeName === "BUTTON") {
+          // отменяем переход по ссылке
+          e.preventDefault();
+          alert("Comming soon!");
+        }
+      });
+    </script>
+  </body>
+</html>

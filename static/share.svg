@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.7041855mm"
+   height="4.2333527mm"
+   viewBox="0 0 3.7041855 4.2333527"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="arrow-r.svg"
+   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   inkscape:dataloss="true"
+   inkscape:export-filename="arrow-r.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74386223"
+     inkscape:cx="321.29605"
+     inkscape:cy="562.60418"
+     inkscape:window-width="1916"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-108.41137,-160.78872)">
+    <mask
+       id="mask0_2338_296"
+       maskUnits="userSpaceOnUse"
+       x="7"
+       y="6"
+       width="7"
+       height="8">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 7,6 v 8 l 7,-4 z"
+         fill="#ffffff"
+         id="path223" />
+    </mask>
+    <mask
+       id="mask0_2338_288"
+       maskUnits="userSpaceOnUse"
+       x="6"
+       y="6"
+       width="7"
+       height="8">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 13,6 v 8 L 6,10 Z"
+         fill="#ffffff"
+         id="path347" />
+    </mask>
+    <mask
+       id="mask0_2338_296-1"
+       maskUnits="userSpaceOnUse"
+       x="7"
+       y="6"
+       width="7"
+       height="8">
+      <path
+         fill-rule="evenodd"
+         clip-rule="evenodd"
+         d="m 7,6 v 8 l 7,-4 z"
+         fill="#ffffff"
+         id="path557" />
+    </mask>
+    <path
+       d="m 111.32181,163.43456 c -0.18693,0 -0.35874,0.0646 -0.49436,0.17277 l -0.84738,-0.52962 c 0.0251,-0.11351 0.0251,-0.23114 0,-0.34465 l 0.84738,-0.52961 c 0.13562,0.10812 0.30743,0.17277 0.49436,0.17277 0.43836,0 0.79375,-0.35538 0.79375,-0.79375 0,-0.43837 -0.35539,-0.79375 -0.79375,-0.79375 -0.43838,0 -0.79375,0.35538 -0.79375,0.79375 0,0.0592 0.007,0.11683 0.0188,0.17232 l -0.84738,0.52961 c -0.13563,-0.10811 -0.30743,-0.17276 -0.49436,-0.17276 -0.43837,0 -0.79375,0.35538 -0.79375,0.79375 0,0.43837 0.35538,0.79375 0.79375,0.79375 0.18693,0 0.35873,-0.0646 0.49436,-0.17277 l 0.84738,0.52961 c -0.0125,0.0566 -0.0188,0.11438 -0.0188,0.17233 0,0.43836 0.35537,0.79375 0.79375,0.79375 0.43836,0 0.79375,-0.35539 0.79375,-0.79375 0,-0.43837 -0.35539,-0.79375 -0.79375,-0.79375 z"
+       fill="#323232"
+       id="path751"
+       style="stroke-width:0.264583" />
+  </g>
+</svg>
